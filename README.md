@@ -1,6 +1,6 @@
 # FinançasPro — Controle Financeiro para Microempreendedores
 
-Este aplicativo é um MVP (Minimum Viable Product) de controle de contas a pagar e receber, desenvolvido especificamente como projeto de conclusão de disciplina para o curso de **Análise e Desenvolvimento de Sistemas (ADS) da Faculdade Estácio**.
+Este aplicativo é um MVP (Minimum Viable Product) de controle de contas a pagar e receber, desenvolvido especificamente como **trabalho de extensão** para o curso de **Análise e Desenvolvimento de Sistemas (ADS) da Faculdade Estácio**.
 
 O aplicativo foi projetado para auxiliar pequenos empreendedores e autônomos que trabalham com vendas a gerenciar suas receitas e despesas com simplicidade, foco em segurança e uma interface de alta usabilidade.
 
@@ -79,5 +79,6 @@ Escaneie o QR Code exibido no terminal com a câmera do seu celular ou diretamen
 ---
 
 ## 🎓 Autoria
+*   **Aluno:** André Lima
 *   **Curso:** Análise e Desenvolvimento de Sistemas (ADS)
 *   **Faculdade:** Estácio de Sá
