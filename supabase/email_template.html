@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Confirme seu Cadastro | FinançasPro</title>
+</head>
+<body style="margin: 0; padding: 0; background-color: #f8fafc; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #0f172a;">
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f8fafc; padding: 40px 10px;">
+        <tr>
+            <td align="center">
+                <!-- Caixa de Email Principal -->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 500px; background-color: #ffffff; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 12px rgba(15, 23, 42, 0.03); border: 1px solid #e2e8f0;">
+                    
+                    <!-- Cabeçalho (Logo) -->
+                    <tr>
+                        <td align="center" style="background-color: #00b46d; padding: 32px 20px; text-align: center;">
+                            <table border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <!-- Logotipo Simples -->
+                                    <td style="background-color: #ffffff; padding: 6px; border-radius: 8px; font-weight: bold; font-size: 20px; color: #00b46d; display: inline-block; width: 36px; height: 36px; line-height: 24px; text-align: center; margin-right: 10px;">
+                                        $
+                                    </td>
+                                    <td style="font-size: 24px; font-weight: bold; color: #ffffff; letter-spacing: -0.5px;">
+                                        Finanças<span style="color: #d1fae5;">Pro</span>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+                    <!-- Corpo do E-mail -->
+                    <tr>
+                        <td style="padding: 40px 32px;">
+                            <h1 style="font-size: 22px; font-weight: bold; color: #0f172a; margin-top: 0; margin-bottom: 12px; letter-spacing: -0.5px; text-align: center;">
+                                Seja muito bem-vindo! 🚀
+                            </h1>
+                            <p style="font-size: 15px; line-height: 1.6; color: #475569; margin-top: 0; margin-bottom: 24px; text-align: center;">
+                                Obrigado por se cadastrar no FinançasPro. Para ativar a sua conta e começar a gerenciar suas contas a pagar e receber com total facilidade, por favor clique no botão abaixo para confirmar seu e-mail:
+                            </p>
+
+                            <!-- Botão de Confirmação -->
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="margin-bottom: 28px;">
+                                <tr>
+                                    <td align="center">
+                                        <a href="{{ .ConfirmationURL }}" target="_blank" style="background-color: #00b46d; color: #ffffff; padding: 14px 30px; font-size: 15px; font-weight: bold; text-decoration: none; border-radius: 12px; display: inline-block; box-shadow: 0 4px 6px rgba(0, 180, 109, 0.2);">
+                                            Confirmar Meu E-mail
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <p style="font-size: 13px; line-height: 1.5; color: #94a3b8; margin-top: 0; margin-bottom: 0; text-align: center;">
+                                Se o botão acima não funcionar, copie e cole o link a seguir no seu navegador: <br>
+                                <a href="{{ .ConfirmationURL }}" target="_blank" style="color: #00b46d; text-decoration: underline; word-break: break-all;">
+                                    {{ .ConfirmationURL }}
+                                </a>
+                            </p>
+                        </td>
+                    </tr>
+
+                    <!-- Linha Divisória -->
+                    <tr>
+                        <td style="padding: 0 32px;">
+                            <div style="border-top: 1px solid #e2e8f0;"></div>
+                        </td>
+                    </tr>
+
+                    <!-- Rodapé do E-mail -->
+                    <tr>
+                        <td style="padding: 24px 32px 32px 32px; text-align: center;">
+                            <p style="font-size: 12px; color: #94a3b8; margin: 0 0 4px 0;">
+                                FinançasPro — Trabalho de Extensão ADS Estácio
+                            </p>
+                            <p style="font-size: 11px; color: #cbd5e1; margin: 0;">
+                                Se você não realizou este cadastro, pode ignorar com segurança esta mensagem.
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
